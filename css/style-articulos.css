@@ -1,5 +1,5 @@
 .icono_contacto{
-  color:   #9458e0  ;
+  color:   #deaf7c  ;
   transition-duration: 1s;
   transition-property: color;
 }
@@ -8,7 +8,7 @@
 }
 
 .icono_contacto_tel{
-  color:   #9458e0  ;
+  color:   #deaf7c  ;
   transition-duration: 1s;
   transition-property: color;
 }
@@ -17,7 +17,7 @@
 }
 
 .icono_contacto_lin{
-  color:   #9458e0  ;
+  color:   #deaf7c ;
   transition-duration: 1s;
   transition-property: color;
 }
@@ -71,6 +71,13 @@
   font-weight: 400;
 }
 
+.TextoContacto{
+  color: var(--color-panel);
+  font-size: 0.9rem;
+  font-family: var(--fuente-titulos);
+  font-weight: 400;
+}
+
 .proyRemeras{
   background-image: url("../img/proyectos/proyecto_1.jpg");
   background-position: center;
@@ -99,6 +106,38 @@
   transform: scale(1.05);
 }
 
+
+.proyIglesiaDigital{
+  background-image: url("../img/proyectos/proyecto_3.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  filter: brightness(50%);
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.proyIglesiaDigital:hover{
+  transform: scale(1.05);
+}
+
+
+.proyWizardbot{
+  background-image: url("../img/proyectos/proyecto_4.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  filter: brightness(50%);
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.proyWizardbot:hover{
+  transform: scale(1.05);
+}
+
+
+
 .proyBlog{
   background-image: url("../img/proyectos/blog_personal.jpg");
   background-position: center;
@@ -126,12 +165,12 @@
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited  {
-  background-color: #7D0AB3 !important;
-  border-color: #7D0AB3 !important;
+  background-color: #deaf7c !important;
+  border-color: #deaf7c !important;
 }
 
 .btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
-  border-color: #7D0AB3 !important;
+  border-color: #deaf7c !important;
 }
 
 /* Varios */

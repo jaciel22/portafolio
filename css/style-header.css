@@ -1,11 +1,11 @@
 .circuloPerfil{
-  background-image:linear-gradient( to bottom, #9e36e1 ,var(--color-fondo));
+  background-image:linear-gradient( to bottom, #cfcfcf ,var(--color-fondo));
   height: 100%;
   width:105px;
 }
 
 .circuloPerfilGrande{
-  background-image:linear-gradient( to bottom, #9e36e1 ,var(--color-fondo));
+  background-image:linear-gradient( to bottom, #cfcfcf  ,var(--color-fondo));
   width:265px;
   height: auto;
 }
